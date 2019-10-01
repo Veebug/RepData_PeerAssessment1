@@ -6,9 +6,7 @@
 ##### 1. Load the data (i.e. read.csv())
 
 ```r
-if(!file.exists('activity.csv')){
-    unzip('activity.zip')
-}
+setwd("~/R/assignments and quizes/reproducible research project 1")
 activityData <- read.csv('activity.csv')
 ```
 ##### 2. Process/transform the data (if necessary) into a format suitable for your analysis
